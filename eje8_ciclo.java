@@ -30,8 +30,7 @@ public class eje8_ciclo {
                 break;
             default:
                 System.out.println("Sabor no válido.");
-                sc.close();
-                return;
+                break;
         }
 
         System.out.print("¿Cuántos snacks desea añadir? (cada uno 25): ");
@@ -55,3 +54,4 @@ public class eje8_ciclo {
         sc.close();
    }
 }
+
